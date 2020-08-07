@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callback</title>
+</head>
+<body>
+    <script>
+        /*
+        setTimeout(() => alert("1"),5000);
+        alert("2");
+        */
+        setTimeout(function()
+        {
+            alert("Hello");
+            },
+            3000
+            ); // OPA UM TIMEOUT
+            alert('continuando');
+    </script>
+</body>
+</html>
